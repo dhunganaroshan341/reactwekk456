@@ -1,3 +1,33 @@
+# React Axios Week 4 — Chess Tailwind Scaffold
+
+This project is a learning sandbox for Week 4: Axios and basic data fetching, plus a Tailwind-based chess UI scaffold.
+
+Quick start
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run the dev server
+
+```bash
+npm run dev
+```
+
+Notes
+- Tailwind config and PostCSS files are included (`tailwind.config.cjs`, `postcss.config.cjs`).
+- A simple `ChessBoard` component lives in `src/components/ChessBoard.tsx`.
+- Axios is installed; Axios examples are TODO and will be added under `src/` as exercises.
+
+Files of interest
+- [src/components/ChessBoard.tsx](src/components/ChessBoard.tsx) — simple 8x8 board using Tailwind and Unicode pieces.
+- [src/App.tsx](src/App.tsx) — main app integrating the board.
+
+Next steps
+- Add Axios GET/POST examples and wire a simple remote move logger (exercise).
+- Implement piece movement and game state (basic rules) if desired.
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
