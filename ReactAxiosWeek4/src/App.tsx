@@ -2,6 +2,7 @@ import ChessBoard from './components/ChessBoard'
 import CategoryCrud from './components/CategoryCrud'
 import UserCrud from './components/UserCrud'
 import PostCrud from './components/PostCrud'
+import MediaManager from './components/MediaManager'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <main className="max-w-4xl mx-auto">
         <div className="space-y-6">
+          <MediaManager />
           <PostCrud />
           <CategoryCrud />
           <UserCrud />
