@@ -1,4 +1,5 @@
 import ChessBoard from './components/ChessBoard'
+import UserCrud from './components/UserCrud'
 
 function App() {
   return (
@@ -9,9 +10,13 @@ function App() {
       </header>
 
       <main className="max-w-4xl mx-auto">
-        <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-          <ChessBoard />
-        </section>
+        <div className="space-y-6">
+          <UserCrud />
+
+          <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+            <ChessBoard />
+          </section>
+        </div>
       </main>
     </div>
   )
