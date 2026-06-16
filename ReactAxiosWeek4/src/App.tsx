@@ -1,4 +1,5 @@
 import ChessBoard from './components/ChessBoard'
+import CategoryCrud from './components/CategoryCrud'
 import UserCrud from './components/UserCrud'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
       <main className="max-w-4xl mx-auto">
         <div className="space-y-6">
+          <CategoryCrud />
           <UserCrud />
 
           <section className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
